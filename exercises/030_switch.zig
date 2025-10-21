@@ -45,6 +45,7 @@ pub fn main() void {
             // Switch statements must be "exhaustive" (there must be a
             // match for every possible value).  Please add an "else"
             // to this switch to print a question mark "?" when c is
+	    else => std.debug.print("?", .{}),
             // not one of the existing matches.
         }
     }
